@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار MCQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>اختبار MCQ</h1>
+    <div class="question" id="question"></div>
+    <button id="nextButton">التالي</button>
+
+    <script>
+        let questions = [];
+        let currentQuestionIndex = 0;
+
+        // دالة لتحميل الأسئلة من ملف TXT
+        async function loadQuestions() {
+            try {
+                const response = await fetch('questions.txt');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const text = await response.text();
+                questions = text.split('\n\n').map(q => q.trim());
+                displayQuestion();
+            } catch (error) {
+                console.error('Error loading questions:', error);
+                document.getElementById('question').innerText = 'حدث خطأ أثناء تحميل الأسئلة.';
+            }
+        }
+
+        // دالة لعرض السؤال الحالي
+        function displayQuestion() {
+            if (currentQuestionIndex < questions.length) {
+                document.getElementById('question').innerText = questions[currentQuestionIndex];
+            } else {
+                document.getElementById('question').innerText = 'انتهى الاختبار!';
+                document.getElementById('nextButton').disabled = true;
+            }
+        }
+
+        // دالة للانتقال للسؤال التالي
+        document.getElementById('nextButton').addEventListener('click', () => {
+            currentQuestionIndex++;
+            displayQuestion();
+        });
+
+        // تحميل الأسئلة عند تحميل الصفحة
+        window.onload = loadQuestions;
+    </script>
+</body>
+</html>
