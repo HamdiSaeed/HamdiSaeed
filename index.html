@@ -44,8 +44,8 @@
                     throw new Error('Network response was not ok');
                 }
                 const text = await response.text();
-                // تقسيم الأسئلة بشكل صحيح
-                questions = text.split('\n\n').map(q => q.trim()).filter(q => q.length > 0);
+                // تقسيم الأسئلة باستخدام ###
+                questions = text.split('###').map(q => q.trim()).filter(q => q.length > 0);
                 displayQuestion();
             } catch (error) {
                 console.error('Error loading questions:', error);
