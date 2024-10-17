@@ -1,20 +1,548 @@
-### 18. What is the role of folic acid (Vitamin B9)? 
-A) Energy production 
-B) DNA synthesis 
-C) Antioxidant function 
-D) Bone health 
-**Answer:** B) DNA synthesis 
-
-### 19. Which vitamin is critical for the synthesis of neurotransmitters? 
-A) Vitamin B6 
-B) Vitamin B12 
-C) Vitamin C 
-D) Vitamin E 
-**Answer:** A) Vitamin B6 
-
-### 20. What is the major consequence of Vitamin D deficiency in children? 
-A) Anemia 
-B) Rickets 
-C) Scurvy 
-D) Beriberi 
+Here are 100 multiple-choice questions (MCQs) based on the content provided about vitamins, along with
+their answers:
+### 1. What are vitamins?
+A) Inorganic molecules
+B) Organic molecules
+C) Proteins
+D) Minerals
+**Answer:** B) Organic molecules
+### 2. Which of the following is NOT a fat-soluble vitamin?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin E
+**Answer:** B) Vitamin C
+### 3. What type of vitamins are B-complex and C?
+A) Fat-soluble
+B) Water-soluble
+C) Mineral vitamins
+D) Trace elements
+**Answer:** B) Water-soluble
+### 4. Which vitamin is important for vision?
+A) Vitamin B1
+B) Vitamin A
+C) Vitamin K
+D) Vitamin E
+**Answer:** B) Vitamin A
+### 5. What is the primary function of Vitamin D?
+A) Antioxidant
+B) Blood clotting
+C) Calcium absorption
+D) Energy production
+**Answer:** C) Calcium absorption
+### 6. Which vitamin is known to prevent scurvy?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin K
+**Answer:** B) Vitamin C
+### 7. Which vitamin is vital for blood coagulation?
+A) Vitamin A
+B) Vitamin K
+C) Vitamin E
+D) Vitamin D
+**Answer:** B) Vitamin K
+### 8. What is the deficiency condition associated with Vitamin B1?
+A) Pellagra
+B) Beriberi
+C) Scurvy
+D) Rickets
+**Answer:** B) Beriberi
+### 9. Which vitamin is synthesized in the body from cholesterol upon sunlight exposure?
+A) Vitamin A
+B) Vitamin D
+C) Vitamin E
+D) Vitamin K
+**Answer:** B) Vitamin D
+### 10. What is the main role of Vitamin E?
+A) Blood clotting
+B) Antioxidant
+C) Vision
+D) Energy metabolism
+**Answer:** B) Antioxidant
+### 11. Which vitamin is essential for the synthesis of collagen?
+A) Vitamin C
+B) Vitamin B12
+C) Vitamin A
+D) Vitamin D
+**Answer:** A) Vitamin C
+### 12. What is a common source of Vitamin B12?
+A) Fruits
+B) Vegetables
+C) Animal products
+D) Grains
+**Answer:** C) Animal products
+### 13. Which vitamin deficiency is associated with megaloblastic anemia?
+A) Vitamin B6
+B) Vitamin B12
+C) Vitamin K
+D) Vitamin C
+**Answer:** B) Vitamin B12
+### 14. Which vitamin is involved in the metabolism of amino acids?
+A) Vitamin B6
+B) Vitamin E
+C) Vitamin A
+D) Vitamin C
+**Answer:** A) Vitamin B6
+### 15. What is the primary source of Vitamin K?
+A) Animal products
+B) Dark leafy greens
+C) Fruits
+D) Dairy products
+**Answer:** B) Dark leafy greens
+### 16. A deficiency in which vitamin may lead to night blindness?
+A) Vitamin D
+B) Vitamin A
+C) Vitamin C
+D) Vitamin K
+**Answer:** B) Vitamin A
+### 17. Which vitamin is known as the anti-stress vitamin?
+A) Vitamin B1
+B) Vitamin B3
+C) Vitamin B5
+D) Vitamin B6
+**Answer:** C) Vitamin B5
+### 18. What is the role of folic acid (Vitamin B9)?
+A) Energy production
+B) DNA synthesis
+C) Antioxidant function
+D) Bone health
+**Answer:** B) DNA synthesis
+### 19. Which vitamin is critical for the synthesis of neurotransmitters?
+A) Vitamin B6
+B) Vitamin B12
+C) Vitamin C
+D) Vitamin E
+**Answer:** A) Vitamin B6
+### 20. What is the major consequence of Vitamin D deficiency in children?
+A) Anemia
+B) Rickets
+C) Scurvy
+D) Beriberi
 **Answer:** B) Rickets
+### 21. Which vitamin acts as a coenzyme in the carboxylation of pyruvate?
+A) Biotin
+B) Folic acid
+C) Vitamin B6
+D) Vitamin B12
+**Answer:** A) Biotin
+### 22. Excessive intake of which vitamin can lead to hypervitaminosis A?
+A) Vitamin D
+B) Vitamin E
+C) Vitamin K
+D) Vitamin A
+**Answer:** D) Vitamin A
+### 23. What is the primary action of Vitamin C in the body?
+A) Blood clotting
+B) Collagen synthesis
+C) Energy production
+D) Hormone regulation
+**Answer:** B) Collagen synthesis
+### 24. Which vitamin is synthesized by intestinal bacteria?
+A) Vitamin A
+B) Vitamin K
+C) Vitamin C
+D) Vitamin D
+**Answer:** B) Vitamin K
+### 25. What is the main function of folate in the body?
+A) Blood clotting
+B) Antioxidant activity
+C) DNA synthesis
+D) Energy metabolism
+**Answer:** C) DNA synthesis
+### 26. Which vitamin is involved in the absorption of iron?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin E
+**Answer:** B) Vitamin C
+### 27. What is a symptom of Vitamin E deficiency?
+A) Night blindness
+B) Hemolytic anemia
+C) Scurvy
+D) Rickets
+**Answer:** B) Hemolytic anemia
+### 28. Which vitamin can help improve tooth consistency?
+A) Vitamin A
+B) Vitamin D
+C) Vitamin E
+D) Vitamin C
+**Answer:** B) Vitamin D
+### 29. What is the function of Vitamin B2 (Riboflavin)?
+A) Energy production
+B) Antioxidant
+C) Vision support
+D) Blood coagulation
+**Answer:** C) Vision support
+### 30. Which vitamin is found in significant amounts in liver and eggs?
+A) Vitamin B1
+B) Vitamin B2
+C) Vitamin B3
+D) Vitamin C
+**Answer:** B) Vitamin B2
+### 31. What is the deficiency disease associated with Vitamin B3?
+A) Beriberi
+B) Pellagra
+C) Scurvy
+D) Rickets
+**Answer:** B) Pellagra
+### 32. What role does Vitamin K play in the body?
+A) Energy production
+B) Blood clotting
+C) Bone health
+D) Antioxidant defense
+**Answer:** B) Blood clotting
+### 33. Which vitamin is important for proper nerve function?
+A) Vitamin B12
+B) Vitamin C
+C) Vitamin A
+D) Vitamin E
+**Answer:** A) Vitamin B12
+### 34. What is a risk factor for Vitamin D deficiency?
+A) Low-fat diet
+B) Lack of sun exposure
+C) High protein intake
+D) Excessive fruit consumption
+**Answer:** B) Lack of sun exposure
+### 35. Which vitamin is crucial for the synthesis of neurotransmitters and hemoglobin?
+A) Vitamin B6
+B) Vitamin B1
+C) Vitamin B9
+D) Vitamin B12
+**Answer:** A) Vitamin B6
+### 36. What is a symptom of Vitamin C deficiency?
+A) Anemia
+B) Hemorrhaging
+C) Night blindness
+D) Osteoporosis
+**Answer:** B) Hemorrhaging
+### 37. Which vitamin is known for its role in antioxidant defense?
+A) Vitamin A
+B) Vitamin E
+C) Vitamin K
+D) Vitamin D
+**Answer:** B) Vitamin E
+### 38. What can a deficiency of Vitamin B12 lead to?
+A) Rickets
+B) Scurvy
+C) Anemia
+D) Beriberi
+**Answer:** C) Anemia
+### 39. Which vitamin is essential for fetal development?
+A) Vitamin D
+B) Vitamin A
+C) Vitamin B9
+D) Vitamin E
+**Answer:** C) Vitamin B9
+### 40. What is the recommended daily intake of Vitamin D for adults?
+A) 400 IU
+B) 600 IU
+C) 800 IU
+D) 1000 IU
+**Answer:** B) 600 IU
+### 41. Vitamin A is primarily involved in which process?
+A) Calcium absorption
+B) Vision
+C) Blood clotting
+D) Energy metabolism
+**Answer:** B) Vision
+### 42. Which vitamin helps in the formation of red blood cells?
+A) Vitamin A
+B) Vitamin E
+C) Vitamin B12
+D) Vitamin K
+**Answer:** C) Vitamin B12
+### 43. What is a characteristic symptom of dry beriberi?
+A) Nystagmus
+B) Tachycardia
+C) Muscle weakness
+D) Skin rash
+**Answer:** C) Muscle weakness
+### 44. What vitamin is important for the synthesis of acetylcholine?
+A) Vitamin B3
+B) Vitamin B5
+C) Vitamin B6
+D) Vitamin B12
+**Answer:** B) Vitamin B5
+### 45. What is a source of Vitamin K?
+A) Citrus fruits
+B) Leafy green vegetables
+C) Dairy products
+D) Nuts
+**Answer:** B) Leafy green vegetables
+### 46. Which vitamin deficiency is associated with dermatitis and seborrhea?
+A) Vitamin B1
+B) Vitamin B5
+C) Vitamin B6
+D) Vitamin C
+**Answer:** B) Vitamin B5
+### 47. What is the active form of Vitamin D?
+A) Cholecalciferol
+B) Ergocalciferol
+C) Calcitriol
+D) Retinol
+**Answer:** C) Calcitriol
+### 48. Which vitamin is unstable and can be destroyed by light?
+A) Vitamin A
+B) Vitamin D
+C) Vitamin E
+D) Vitamin K
+**Answer:** D) Vitamin K
+### 49. What is the primary function of Vitamin B5 (Pantothenic Acid)?
+A) Energy production
+B) Blood clotting
+C) Bone health
+D) Vision
+**Answer:** A) Energy production
+### 50. Which vitamin can be synthesized from tryptophan?
+A) Vitamin B2
+B) Vitamin B3
+C) Vitamin B6
+D) Vitamin B12
+**Answer:** B) Vitamin B3
+### 51. Which vitamin is known for its role in reducing oxidative stress?
+A) Vitamin A
+B) Vitamin B
+C) Vitamin C
+D) Vitamin K
+**Answer:** C) Vitamin C
+### 52. What is the main dietary source of Vitamin E?
+A) Leafy greens
+B) Nuts and seeds
+C) Citrus fruits
+D) Dairy products
+**Answer:** B) Nuts and seeds
+### 53. Vitamin B1 is essential for which process?
+A) Protein metabolism
+B) Carbohydrate metabolism
+C) Fat metabolism
+D) DNA synthesis
+**Answer:** B) Carbohydrate metabolism
+### 54. Which vitamin is involved in the synthesis of bile acids?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin E
+**Answer:** B) Vitamin C
+### 55. What is the main source of Vitamin B12?
+A) Plant sources
+B) Animal products
+C) Dairy products
+D) Fruits
+**Answer:** B) Animal products
+### 56. Which vitamin can lead to toxicity if taken in excessive amounts?
+A) Vitamin C
+B) Vitamin K
+C) Vitamin D
+D) Vitamin E
+**Answer:** C) Vitamin D
+### 57. What is the role of Vitamin K in the body?
+A) Energy production
+B) Blood coagulation
+C) Nerve function
+D) Immune support
+**Answer:** B) Blood coagulation
+### 58. Which vitamin is essential for the synthesis of collagen?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin E
+**Answer:** B) Vitamin C
+### 59. What is a common symptom of Vitamin B6 deficiency?
+A) Anemia
+B) Dermatitis
+C) Nerve damage
+D) Night blindness
+**Answer:** C) Nerve damage
+### 60. Which vitamin plays a crucial role in the metabolism of fatty acids?
+A) Vitamin B1
+B) Vitamin B2
+C) Vitamin B5
+D) Vitamin B12
+**Answer:** C) Vitamin B5
+### 61. What is a symptom of Vitamin D toxicity?
+A) Skin rash
+B) Nausea
+C) Fatigue
+D) Numbness
+**Answer:** B) Nausea
+### 62. Which vitamin is important for healthy skin and eyesight?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin E
+**Answer:** A) Vitamin A
+### 63. What is the primary source of Vitamin A for vegetarians?
+A) Animal liver
+B) Dark leafy greens
+C) Fish
+D) Eggs
+**Answer:** B) Dark leafy greens
+### 64. Which vitamin is known to improve immunity?
+A) Vitamin A
+B) Vitamin B
+C) Vitamin E
+D) Vitamin K
+**Answer:** C) Vitamin E
+### 65. Which mineral is Vitamin D primarily associated with?
+A) Iron
+B) Calcium
+C) Potassium
+D) Magnesium
+**Answer:** B) Calcium
+### 66. What is a consequence of Vitamin E deficiency?
+A) Hemolytic anemia
+B) Scurvy
+C) Rickets
+D) Beriberi
+**Answer:** A) Hemolytic anemia
+### 67. Which vitamin is essential for the synthesis of neurotransmitters?
+A) Vitamin B5
+B) Vitamin B6
+C) Vitamin B12
+D) Vitamin C
+**Answer:** B) Vitamin B6
+### 68. What is the role of Vitamin C in iron absorption?
+A) Reduces ferric to ferrous
+B) Increases calcium absorption
+C) Enhances vitamin D activity
+D) Promotes blood coagulation
+**Answer:** A) Reduces ferric to ferrous
+### 69. Which vitamin deficiency is characterized by a magenta tongue?
+A) Vitamin B2
+B) Vitamin B3
+C) Vitamin B6
+D) Vitamin B12
+**Answer:** A) Vitamin B2
+### 70. What is the primary function of Vitamin B2?
+A) Energy production
+B) Antioxidant function
+C) Vision
+D) Blood clotting
+**Answer:** C) Vision
+### 71. Which vitamin is synthesized in the skin when exposed to sunlight?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin E
+**Answer:** C) Vitamin D
+### 72. What is a symptom of Vitamin A toxicity?
+A) Night blindness
+B) Nausea
+C) Fatigue
+D) Skin rash
+**Answer:** B) Nausea
+### 73. Which vitamin is essential for the maintenance of healthy skin?
+A) Vitamin A
+B) Vitamin B2
+C) Vitamin C
+D) All of the above
+**Answer:** D) All of the above
+### 74. What is the primary source of Vitamin B1 in the diet?
+A) Meat
+B) Whole grains
+C) Dairy products
+D) Fruits
+**Answer:** B) Whole grains
+### 75. Which vitamin is associated with the prevention of neural tube defects during pregnancy?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin B9
+D) Vitamin K
+**Answer:** C) Vitamin B9
+### 76. What is the primary dietary source of Vitamin E?
+A) Fish
+B) Nuts
+C) Vegetables
+D) Fruits
+**Answer:** B) Nuts
+### 77. Which vitamin is essential for maintaining healthy red blood cells?
+A) Vitamin A
+B) Vitamin B12
+C) Vitamin C
+D) Vitamin D
+**Answer:** B) Vitamin B12
+### 78. What is the function of Vitamin B3 (Niacin)?
+A) Energy production
+B) Antioxidant
+C) Blood clotting
+D) DNA synthesis
+**Answer:** A) Energy production
+### 79. Which vitamin is important for the formation of connective tissue?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin E
+**Answer:** B) Vitamin C
+### 80. What is a function of Vitamin K besides blood clotting?
+A) Bone health
+B) Vision
+C) Energy metabolism
+D) Antioxidant activity
+**Answer:** A) Bone health
+### 81. Which vitamin is derived from cholesterol?
+A) Vitamin A
+B) Vitamin D
+C) Vitamin E
+D) Vitamin K
+**Answer:** B) Vitamin D
+### 82. Which vitamin is known for its role in gene expression?
+A) Vitamin A
+B) Vitamin D
+C) Vitamin E
+D) Vitamin K
+**Answer:** B) Vitamin D
+### 83. What is a symptom of Vitamin B12 deficiency?
+A) Anemia
+B) Osteoporosis
+C) Skin rash
+D) Night blindness
+**Answer:** A) Anemia
+### 84. Which vitamin is important for maintaining nerve health?
+A) Vitamin B1
+B) Vitamin B3
+C) Vitamin B6
+D) All of the above
+**Answer:** D) All of the above
+### 85. What is a common source of Vitamin C?
+A) Citrus fruits
+B) Whole grains
+C) Dairy products
+D) Fish
+**Answer:** A) Citrus fruits
+### 86. Which vitamin helps in the absorption of calcium?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin B12
+**Answer:** C) Vitamin D
+### 87. What is a symptom of Vitamin K deficiency?
+A) Night blindness
+B) Hemorrhage
+C) Fatigue
+D) Scurvy
+**Answer:** B) Hemorrhage
+### 88. Which vitamin is known for its antioxidant properties?
+A) Vitamin A
+B) Vitamin C
+C) Vitamin D
+D) Vitamin K
+**Answer:** B) Vitamin C
+### 89. What is a role of Vitamin B5 in the body?
+A) Energy metabolism
+B) Blood clotting
+C) Vision
+D) Immune function
+**Answer:** A) Energy metabolism
+### 90. What is the primary source of Vitamin A?
+A) Fruits
+B) Vegetables
+C) Animal products
+D) Nuts
+**Answer:** C) Animal products
+### 91. Which vitamin is synthesized by intestinal bacteria?
+A) Vitamin A
+B) Vitamin B12
+C) Vitamin K
+D) Vitamin E
+**Answer:** C) Vitamin K
