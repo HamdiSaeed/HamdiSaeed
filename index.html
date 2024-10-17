@@ -36,6 +36,14 @@
         .option {
             margin: 5px 0;
         }
+        .answer {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e7f3fe;
+            border-left: 4px solid #2196F3;
+            border-radius: 5px;
+            color: #31708f;
+        }
         button {
             padding: 10px 15px;
             background-color: #007BFF;
@@ -62,6 +70,7 @@
     <div class="question-container">
         <div class="question" id="question"></div>
         <div class="options" id="options"></div>
+        <div class="answer" id="answer" style="display: none;"></div>
     </div>
     <div class="button-container">
         <button id="prevButton" disabled>الرجوع</button>
@@ -98,12 +107,17 @@
                 document.getElementById('question').innerText = question;
                 document.getElementById('options').innerHTML = options.map(option => `<div class="option">${option}</div>`).join('');
                 
+                // عرض الإجابة الصحيحة
+                document.getElementById('answer').innerText = `**الإجابة الصحيحة:** ${options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '')}`;
+                document.getElementById('answer').style.display = 'none'; // إخفاء الإجابة في البداية
+                
                 // تفعيل / تعطيل الأزرار بناءً على الفهرس الحالي
                 document.getElementById('prevButton').disabled = currentQuestionIndex === 0;
                 document.getElementById('nextButton').disabled = currentQuestionIndex === questions.length - 1;
             } else {
                 document.getElementById('question').innerText = 'انتهى الاختبار!';
                 document.getElementById('options').innerHTML = '';
+                document.getElementById('answer').innerText = '';
                 document.getElementById('prevButton').disabled = true;
                 document.getElementById('nextButton').disabled = true;
             }
