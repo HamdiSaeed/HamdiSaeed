@@ -72,6 +72,13 @@
             font-size: 0.9em; /* حجم أصغر */
             padding: 5px 10px; /* حجم الزر */
         }
+        .selected {
+            background-color: #d1ecf1; /* لون خلفية للإجابة المحددة */
+        }
+        #finishButton {
+            background-color: #28a745; /* لون زر إنهاء الاختبار */
+            display: none; /* إخفاء الزر في البداية */
+        }
     </style>
 </head>
 <body>
@@ -87,12 +94,14 @@
     </div>
     <div class="jump-container">
         <input type="number" id="jumpToQuestion" placeholder="أدخل رقم السؤال" min="1" />
-        <button id="jumpButton">Go</button> <!-- نص الزر تم تغييره هنا -->
+        <button id="jumpButton">Go</button> 
     </div>
+    <button id="finishButton">إنهاء الاختبار</button> <!-- زر إنهاء الاختبار -->
 
     <script>
         let questions = [];
         let currentQuestionIndex = 0;
+        let selectedAnswers = [];
 
         // دالة لتحميل الأسئلة من ملف TXT
         async function loadQuestions() {
@@ -118,7 +127,9 @@
                 const [question, ...options] = questionText.split('\n').map(line => line.trim()).filter(line => line.length > 0);
                 
                 document.getElementById('question').innerText = question;
-                document.getElementById('options').innerHTML = options.map(option => `<div class="option">${option}</div>`).join('');
+                document.getElementById('options').innerHTML = options.map((option, index) => 
+                    `<div class="option" onclick="selectOption(${index})">${option}</div>`
+                ).join('');
                 
                 // عرض الإجابة الصحيحة
                 document.getElementById('answer').innerText = `**الإجابة الصحيحة:** ${options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '')}`;
@@ -127,13 +138,25 @@
                 // تفعيل / تعطيل الأزرار بناءً على الفهرس الحالي
                 document.getElementById('prevButton').disabled = currentQuestionIndex === 0;
                 document.getElementById('nextButton').disabled = currentQuestionIndex === questions.length - 1;
+                document.getElementById('finishButton').style.display = currentQuestionIndex === questions.length - 1 ? 'block' : 'none'; // إظهار زر إنهاء الاختبار
             } else {
                 document.getElementById('question').innerText = 'انتهى الاختبار!';
                 document.getElementById('options').innerHTML = '';
                 document.getElementById('answer').innerText = '';
                 document.getElementById('prevButton').disabled = true;
                 document.getElementById('nextButton').disabled = true;
+                document.getElementById('finishButton').style.display = 'none'; // إخفاء الزر عند الانتهاء
             }
+        }
+
+        // دالة لتحديد الإجابة
+        function selectOption(index) {
+            const options = document.querySelectorAll('.option');
+            options.forEach((option, i) => {
+                option.classList.remove('selected'); // إزالة التحديد من جميع الخيارات
+            });
+            options[index].classList.add('selected'); // إضافة التحديد للخيار المحدد
+            selectedAnswers[currentQuestionIndex] = options[index].innerText; // حفظ الإجابة المحددة
         }
 
         // دالة للانتقال للسؤال التالي
@@ -159,6 +182,19 @@
             } else {
                 alert('رقم السؤال غير صالح. يرجى إدخال رقم صحيح.');
             }
+        });
+
+        // دالة لإنهاء الاختبار وعرض النتيجة
+        document.getElementById('finishButton').addEventListener('click', () => {
+            let score = 0;
+            questions.forEach((question, index) => {
+                const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+                const correctAnswer = options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '');
+                if (selectedAnswers[index] === correctAnswer) {
+                    score++;
+                }
+            });
+            alert(`انتهى الاختبار! نتيجتك: ${score} من ${questions.length}`);
         });
 
         // تحميل الأسئلة عند تحميل الصفحة
