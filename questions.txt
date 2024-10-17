@@ -1,5 +1,3 @@
-Introduction 
- 
 1-sesamoid bone is:  
 A. Patella.  
 B. Vertebra.  
@@ -65,7 +63,8 @@ D. All of the above.
  
 11- Regarding the two ends of a growing bone, choose the incorrect statement:  
 A. They are called epiphyses.  
-B. They enclose medullary cavities. 🤩 
+B. They enclose medullary cavities. 
+
 C. They are covered by hyaline cartilage.  
 D. They ossify by secondary centers of ossification. 
  
@@ -376,37 +375,7 @@ A-clavicle
 B-scapula  
 C-Humerus 
 D-vertebrae. 
- 
- 
- 
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
-D C C B B D A C D D B D C D A C B D D A 
-21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 
-B A A C A B B C B C C A C A D C A B A C 
-41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 
-C B D D D D D D D D D A C C C B C B   
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-UPPER LIMB  
+
 1- Branch from 1st part of axillary artery: 
 A- lateral thoracic artery  
 B- circumflex scapular artery  
@@ -838,37 +807,7 @@ A-Capsular ligament.
 B- Medial ligament. 
 C- Lateral ligament. 
 D- Radial Collateral ligament  
- 
- 
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
-C B C C B B D A C B A B C C D A D B C B 
-21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 
-D B B B D B D A C A C A C A A C A D A C 
-41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 
-C C B C D D C D C B A B A B C C C D C D 
-61 62 63 64 65                
-B D A A D                
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-LOWER LIMB  
+  
 1- The number of tarsal bones is: 
 A- 7 bones  
 B- 8 bones  
@@ -1716,20 +1655,4 @@ A- created during development of the heart
 B- horizontal gap found between the atrial and venous  
 C- found behind the heart 
 D- all of above  
- 
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
-C A D B A A B C A C B C C D A B B D B A 
-21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 
-B A B B C A D D D A D B B B D C D D B B 
-41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 
-A C B C B C C B C C C A C B C B B A C A 
-61 62 63                  
-B B B                  
- 
- 
- 
- 
- 
- 
- 
  
