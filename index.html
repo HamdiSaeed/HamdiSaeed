@@ -63,6 +63,15 @@
             display: flex;
             justify-content: space-between;
         }
+        .jump-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #jumpButton {
+            background-color: #6c757d; /* لون رمادي */
+            font-size: 0.9em; /* حجم أصغر */
+            padding: 5px 10px; /* حجم الزر */
+        }
     </style>
 </head>
 <body>
@@ -75,6 +84,10 @@
     <div class="button-container">
         <button id="prevButton" disabled>الرجوع</button>
         <button id="nextButton">التالي</button>
+    </div>
+    <div class="jump-container">
+        <input type="number" id="jumpToQuestion" placeholder="أدخل رقم السؤال" min="1" />
+        <button id="jumpButton">Go</button> <!-- نص الزر تم تغييره هنا -->
     </div>
 
     <script>
@@ -134,6 +147,17 @@
             if (currentQuestionIndex > 0) {
                 currentQuestionIndex--;
                 displayQuestion();
+            }
+        });
+
+        // دالة للانتقال إلى سؤال محدد
+        document.getElementById('jumpButton').addEventListener('click', () => {
+            const jumpToIndex = parseInt(document.getElementById('jumpToQuestion').value, 10) - 1;
+            if (jumpToIndex >= 0 && jumpToIndex < questions.length) {
+                currentQuestionIndex = jumpToIndex;
+                displayQuestion();
+            } else {
+                alert('رقم السؤال غير صالح. يرجى إدخال رقم صحيح.');
             }
         });
 
