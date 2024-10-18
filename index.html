@@ -115,9 +115,9 @@
                 // استخراج الإجابات الصحيحة
                 questions.forEach((question) => {
                     const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
-                    const correctAnswerMatch = question.match(/\*\*(.*?)\*\*/);
-                    if (correctAnswerMatch) {
-                        correctAnswers.push(correctAnswerMatch[1].trim()); // إضافة الإجابة الصحيحة للمصفوفة
+                    const correctAnswer = options.find(option => option.startsWith('** '));
+                    if (correctAnswer) {
+                        correctAnswers.push(correctAnswer.replace('** ', '').trim()); // إضافة الإجابة الصحيحة للمصفوفة
                     }
                 });
                 displayQuestion();
