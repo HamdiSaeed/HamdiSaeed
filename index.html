@@ -155,11 +155,7 @@
         }
 
         function toggleOption(index) {
-            if (selectedAnswers[currentQuestionIndex] === index) {
-                selectedAnswers[currentQuestionIndex] = null;
-            } else {
-                selectedAnswers[currentQuestionIndex] = index;
-            }
+            selectedAnswers[currentQuestionIndex] = index;
             displayQuestion();
         }
 
@@ -197,7 +193,9 @@
             questions.forEach((question, index) => {
                 const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
                 const correctAnswer = correctAnswers[index];
-                if (options[selectedAnswers[index]] === correctAnswer) {
+
+                // تأكد من أن الإجابة المحددة موجودة وقارنها بالإجابة الصحيحة
+                if (selectedAnswers[index] !== undefined && options[selectedAnswers[index]] === correctAnswer) {
                     score++;
                 }
             });
