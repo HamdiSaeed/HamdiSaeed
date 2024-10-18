@@ -41,7 +41,7 @@
         }
         .option input {
             margin-right: 10px;
-            accent-color: #007BFF; /* لون الدائرة */
+            accent-color: #007BFF;
         }
         .answer {
             margin-top: 10px;
@@ -75,9 +75,9 @@
             text-align: center;
         }
         #jumpButton {
-            background-color: #6c757d; /* لون رمادي */
-            font-size: 0.9em; /* حجم أصغر */
-            padding: 5px 10px; /* حجم الزر */
+            background-color: #6c757d;
+            font-size: 0.9em;
+            padding: 5px 10px;
         }
     </style>
 </head>
@@ -90,7 +90,7 @@
     </div>
     <div class="button-container">
         <button id="prevButton" disabled>الرجوع</button>
-        <button id="nextButton">التالي</button> <!-- نص الزر سيتغير لاحقًا -->
+        <button id="nextButton">التالي</button>
     </div>
     <div class="jump-container">
         <input type="number" id="jumpToQuestion" placeholder="أدخل رقم السؤال" min="1" />
@@ -101,8 +101,8 @@
         let questions = [];
         let currentQuestionIndex = 0;
         let selectedAnswers = [];
+        let correctAnswers = []; // مصفوفة لتخزين الإجابات الصحيحة
 
-        // دالة لتحميل الأسئلة من ملف TXT
         async function loadQuestions() {
             try {
                 const response = await fetch('questions.txt');
@@ -110,8 +110,13 @@
                     throw new Error('Network response was not ok');
                 }
                 const text = await response.text();
-                // تقسيم الأسئلة باستخدام ###
                 questions = text.split('###').map(q => q.trim()).filter(q => q.length > 0);
+                // استخراج الإجابات الصحيحة
+                questions.forEach((question) => {
+                    const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+                    const correctAnswer = options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '');
+                    correctAnswers.push(correctAnswer); // إضافة الإجابة الصحيحة للمصفوفة
+                });
                 displayQuestion();
             } catch (error) {
                 console.error('Error loading questions:', error);
@@ -119,7 +124,6 @@
             }
         }
 
-        // دالة لعرض السؤال الحالي
         function displayQuestion() {
             if (currentQuestionIndex < questions.length) {
                 const questionText = questions[currentQuestionIndex];
@@ -133,33 +137,29 @@
                     </div>`
                 ).join('');
                 
-                // عرض الإجابة الصحيحة
-                document.getElementById('answer').innerText = `**الإجابة الصحيحة:** ${options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '')}`;
-                document.getElementById('answer').style.display = 'none'; // إخفاء الإجابة في البداية
+                document.getElementById('answer').innerText = `**الإجابة الصحيحة:** ${correctAnswers[currentQuestionIndex]}`;
+                document.getElementById('answer').style.display = 'none';
                 
-                // تفعيل / تعطيل الأزرار بناءً على الفهرس الحالي
                 document.getElementById('prevButton').disabled = currentQuestionIndex === 0;
-                document.getElementById('nextButton').innerText = currentQuestionIndex === questions.length - 1 ? 'إنهاء الاختبار' : 'التالي'; // تغيير نص الزر
+                document.getElementById('nextButton').innerText = currentQuestionIndex === questions.length - 1 ? 'إنهاء الاختبار' : 'التالي';
             } else {
                 document.getElementById('question').innerText = 'انتهى الاختبار!';
                 document.getElementById('options').innerHTML = '';
                 document.getElementById('answer').innerText = '';
                 document.getElementById('prevButton').disabled = true;
-                document.getElementById('nextButton').style.display = 'none'; // إخفاء زر التالي
+                document.getElementById('nextButton').style.display = 'none';
             }
         }
 
-        // دالة لتبديل تحديد الإجابة
         function toggleOption(index) {
             if (selectedAnswers[currentQuestionIndex] === index) {
-                selectedAnswers[currentQuestionIndex] = null; // إلغاء التحديد
+                selectedAnswers[currentQuestionIndex] = null;
             } else {
-                selectedAnswers[currentQuestionIndex] = index; // حفظ الإجابة المحددة
+                selectedAnswers[currentQuestionIndex] = index;
             }
-            displayQuestion(); // إعادة عرض السؤال لتحديث الاختيار
+            displayQuestion();
         }
 
-        // دالة للانتقال للسؤال التالي أو إنهاء الاختبار
         document.getElementById('nextButton').addEventListener('click', () => {
             if (currentQuestionIndex === questions.length - 1) {
                 const confirmFinish = confirm("هل أنت متأكد أنك تريد إنهاء الاختبار؟");
@@ -172,7 +172,6 @@
             }
         });
 
-        // دالة للعودة للسؤال السابق
         document.getElementById('prevButton').addEventListener('click', () => {
             if (currentQuestionIndex > 0) {
                 currentQuestionIndex--;
@@ -180,7 +179,6 @@
             }
         });
 
-        // دالة للانتقال إلى سؤال محدد
         document.getElementById('jumpButton').addEventListener('click', () => {
             const jumpToIndex = parseInt(document.getElementById('jumpToQuestion').value, 10) - 1;
             if (jumpToIndex >= 0 && jumpToIndex < questions.length) {
@@ -191,12 +189,11 @@
             }
         });
 
-        // دالة لعرض النتيجة
         function showResults() {
             let score = 0;
             questions.forEach((question, index) => {
                 const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
-                const correctAnswer = options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '');
+                const correctAnswer = correctAnswers[index];
                 if (options[selectedAnswers[index]] === correctAnswer) {
                     score++;
                 }
@@ -204,7 +201,6 @@
             alert(`انتهى الاختبار! نتيجتك: ${score} من ${questions.length}`);
         }
 
-        // تحميل الأسئلة عند تحميل الصفحة
         window.onload = loadQuestions;
     </script>
 </body>
