@@ -111,11 +111,14 @@
                 }
                 const text = await response.text();
                 questions = text.split('###').map(q => q.trim()).filter(q => q.length > 0);
+                
                 // استخراج الإجابات الصحيحة
                 questions.forEach((question) => {
                     const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
-                    const correctAnswer = options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '');
-                    correctAnswers.push(correctAnswer); // إضافة الإجابة الصحيحة للمصفوفة
+                    const correctAnswerMatch = question.match(/\*\*(.*?)\*\*/);
+                    if (correctAnswerMatch) {
+                        correctAnswers.push(correctAnswerMatch[1].trim()); // إضافة الإجابة الصحيحة للمصفوفة
+                    }
                 });
                 displayQuestion();
             } catch (error) {
