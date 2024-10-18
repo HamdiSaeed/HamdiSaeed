@@ -43,14 +43,6 @@
             margin-right: 10px;
             accent-color: #007BFF;
         }
-        .answer {
-            margin-top: 10px;
-            padding: 10px;
-            background-color: #e7f3fe;
-            border-left: 4px solid #2196F3;
-            border-radius: 5px;
-            color: #31708f;
-        }
         button {
             padding: 10px 15px;
             background-color: #007BFF;
@@ -86,7 +78,6 @@
     <div class="question-container">
         <div class="question" id="question"></div>
         <div class="options" id="options"></div>
-        <div class="answer" id="answer" style="display: none;"></div>
     </div>
     <div class="button-container">
         <button id="prevButton" disabled>الرجوع</button>
@@ -110,15 +101,15 @@
                     throw new Error('Network response was not ok');
                 }
                 const text = await response.text();
-                questions = text.split('###').map(q => q.trim()).filter(q => q.length > 0);
+                const questionBlocks = text.split('###').map(q => q.trim()).filter(q => q.length > 0);
                 
-                // استخراج الإجابات الصحيحة
-                questions.forEach((question) => {
-                    const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
-                    const correctAnswer = options.find(option => option.startsWith('** '));
-                    if (correctAnswer) {
-                        correctAnswers.push(correctAnswer.replace('** ', '').trim()); // إضافة الإجابة الصحيحة للمصفوفة
-                    }
+                questionBlocks.forEach(block => {
+                    const lines = block.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+                    const question = lines[0]; // السؤال في السطر الأول
+                    const options = lines.slice(1, lines.length - 1); // كل السطور ماعدا السطر الأخير
+                    const correctAnswer = lines[lines.length - 1].replace('**Answer:** ', '').trim(); // السطر الأخير هو الإجابة الصحيحة
+                    
+                    questions.push({ question, options, correctAnswer });
                 });
                 displayQuestion();
             } catch (error) {
@@ -129,8 +120,7 @@
 
         function displayQuestion() {
             if (currentQuestionIndex < questions.length) {
-                const questionText = questions[currentQuestionIndex];
-                const [question, ...options] = questionText.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+                const { question, options } = questions[currentQuestionIndex];
                 
                 document.getElementById('question').innerText = question;
                 document.getElementById('options').innerHTML = options.map((option, index) => 
@@ -140,15 +130,11 @@
                     </div>`
                 ).join('');
                 
-                document.getElementById('answer').innerText = `**الإجابة الصحيحة:** ${correctAnswers[currentQuestionIndex]}`;
-                document.getElementById('answer').style.display = 'none';
-                
                 document.getElementById('prevButton').disabled = currentQuestionIndex === 0;
                 document.getElementById('nextButton').innerText = currentQuestionIndex === questions.length - 1 ? 'إنهاء الاختبار' : 'التالي';
             } else {
                 document.getElementById('question').innerText = 'انتهى الاختبار!';
                 document.getElementById('options').innerHTML = '';
-                document.getElementById('answer').innerText = '';
                 document.getElementById('prevButton').disabled = true;
                 document.getElementById('nextButton').style.display = 'none';
             }
@@ -191,11 +177,11 @@
         function showResults() {
             let score = 0;
             questions.forEach((question, index) => {
-                const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
-                const correctAnswer = correctAnswers[index];
-
+                const correctAnswer = question.correctAnswer;
+                const selectedAnswer = question.options[selectedAnswers[index]];
+                
                 // تأكد من أن الإجابة المحددة موجودة وقارنها بالإجابة الصحيحة
-                if (selectedAnswers[index] !== undefined && options[selectedAnswers[index]] === correctAnswer) {
+                if (selectedAnswers[index] !== undefined && selectedAnswer === correctAnswer) {
                     score++;
                 }
             });
