@@ -79,10 +79,6 @@
             font-size: 0.9em; /* حجم أصغر */
             padding: 5px 10px; /* حجم الزر */
         }
-        #finishButton {
-            background-color: #28a745; /* لون زر إنهاء الاختبار */
-            display: none; /* إخفاء الزر في البداية */
-        }
     </style>
 </head>
 <body>
@@ -94,13 +90,12 @@
     </div>
     <div class="button-container">
         <button id="prevButton" disabled>الرجوع</button>
-        <button id="nextButton">التالي</button>
+        <button id="nextButton">التالي</button> <!-- نص الزر سيتغير لاحقًا -->
     </div>
     <div class="jump-container">
         <input type="number" id="jumpToQuestion" placeholder="أدخل رقم السؤال" min="1" />
         <button id="jumpButton">Go</button> 
     </div>
-    <button id="finishButton">إنهاء الاختبار</button> <!-- زر إنهاء الاختبار -->
 
     <script>
         let questions = [];
@@ -132,8 +127,8 @@
                 
                 document.getElementById('question').innerText = question;
                 document.getElementById('options').innerHTML = options.map((option, index) => 
-                    `<div class="option">
-                        <input type="radio" name="option" id="option${index}" onclick="selectOption(${index})" ${selectedAnswers[currentQuestionIndex] === index ? 'checked' : ''}>
+                    `<div class="option" onclick="toggleOption(${index})">
+                        <input type="radio" name="option" id="option${index}" ${selectedAnswers[currentQuestionIndex] === index ? 'checked' : ''}>
                         <label for="option${index}">${option}</label>
                     </div>`
                 ).join('');
@@ -144,27 +139,37 @@
                 
                 // تفعيل / تعطيل الأزرار بناءً على الفهرس الحالي
                 document.getElementById('prevButton').disabled = currentQuestionIndex === 0;
-                document.getElementById('nextButton').disabled = currentQuestionIndex === questions.length - 1;
-                document.getElementById('finishButton').style.display = currentQuestionIndex === questions.length - 1 ? 'block' : 'none'; // إظهار زر إنهاء الاختبار
+                document.getElementById('nextButton').innerText = currentQuestionIndex === questions.length - 1 ? 'إنهاء الاختبار' : 'التالي'; // تغيير نص الزر
             } else {
                 document.getElementById('question').innerText = 'انتهى الاختبار!';
                 document.getElementById('options').innerHTML = '';
                 document.getElementById('answer').innerText = '';
                 document.getElementById('prevButton').disabled = true;
-                document.getElementById('nextButton').disabled = true;
-                document.getElementById('finishButton').style.display = 'none'; // إخفاء الزر عند الانتهاء
+                document.getElementById('nextButton').style.display = 'none'; // إخفاء زر التالي
             }
         }
 
-        // دالة لتحديد الإجابة
-        function selectOption(index) {
-            selectedAnswers[currentQuestionIndex] = index; // حفظ الإجابة المحددة
+        // دالة لتبديل تحديد الإجابة
+        function toggleOption(index) {
+            if (selectedAnswers[currentQuestionIndex] === index) {
+                selectedAnswers[currentQuestionIndex] = null; // إلغاء التحديد
+            } else {
+                selectedAnswers[currentQuestionIndex] = index; // حفظ الإجابة المحددة
+            }
+            displayQuestion(); // إعادة عرض السؤال لتحديث الاختيار
         }
 
-        // دالة للانتقال للسؤال التالي
+        // دالة للانتقال للسؤال التالي أو إنهاء الاختبار
         document.getElementById('nextButton').addEventListener('click', () => {
-            currentQuestionIndex++;
-            displayQuestion();
+            if (currentQuestionIndex === questions.length - 1) {
+                const confirmFinish = confirm("هل أنت متأكد أنك تريد إنهاء الاختبار؟");
+                if (confirmFinish) {
+                    showResults();
+                }
+            } else {
+                currentQuestionIndex++;
+                displayQuestion();
+            }
         });
 
         // دالة للعودة للسؤال السابق
@@ -186,8 +191,8 @@
             }
         });
 
-        // دالة لإنهاء الاختبار وعرض النتيجة
-        document.getElementById('finishButton').addEventListener('click', () => {
+        // دالة لعرض النتيجة
+        function showResults() {
             let score = 0;
             questions.forEach((question, index) => {
                 const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
@@ -197,7 +202,7 @@
                 }
             });
             alert(`انتهى الاختبار! نتيجتك: ${score} من ${questions.length}`);
-        });
+        }
 
         // تحميل الأسئلة عند تحميل الصفحة
         window.onload = loadQuestions;
