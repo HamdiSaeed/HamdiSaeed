@@ -34,7 +34,14 @@
             border-radius: 5px;
         }
         .option {
+            display: flex;
+            align-items: center;
             margin: 5px 0;
+            cursor: pointer;
+        }
+        .option input {
+            margin-right: 10px;
+            accent-color: #007BFF; /* لون الدائرة */
         }
         .answer {
             margin-top: 10px;
@@ -71,9 +78,6 @@
             background-color: #6c757d; /* لون رمادي */
             font-size: 0.9em; /* حجم أصغر */
             padding: 5px 10px; /* حجم الزر */
-        }
-        .selected {
-            background-color: #d1ecf1; /* لون خلفية للإجابة المحددة */
         }
         #finishButton {
             background-color: #28a745; /* لون زر إنهاء الاختبار */
@@ -128,7 +132,10 @@
                 
                 document.getElementById('question').innerText = question;
                 document.getElementById('options').innerHTML = options.map((option, index) => 
-                    `<div class="option" onclick="selectOption(${index})">${option}</div>`
+                    `<div class="option">
+                        <input type="radio" name="option" id="option${index}" onclick="selectOption(${index})" ${selectedAnswers[currentQuestionIndex] === index ? 'checked' : ''}>
+                        <label for="option${index}">${option}</label>
+                    </div>`
                 ).join('');
                 
                 // عرض الإجابة الصحيحة
@@ -151,12 +158,7 @@
 
         // دالة لتحديد الإجابة
         function selectOption(index) {
-            const options = document.querySelectorAll('.option');
-            options.forEach((option, i) => {
-                option.classList.remove('selected'); // إزالة التحديد من جميع الخيارات
-            });
-            options[index].classList.add('selected'); // إضافة التحديد للخيار المحدد
-            selectedAnswers[currentQuestionIndex] = options[index].innerText; // حفظ الإجابة المحددة
+            selectedAnswers[currentQuestionIndex] = index; // حفظ الإجابة المحددة
         }
 
         // دالة للانتقال للسؤال التالي
@@ -190,7 +192,7 @@
             questions.forEach((question, index) => {
                 const options = question.split('\n').map(line => line.trim()).filter(line => line.length > 0);
                 const correctAnswer = options.find(option => option.includes('**Answer:**')).replace('**Answer:** ', '');
-                if (selectedAnswers[index] === correctAnswer) {
+                if (options[selectedAnswers[index]] === correctAnswer) {
                     score++;
                 }
             });
