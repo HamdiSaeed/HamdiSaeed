@@ -45,9 +45,11 @@
         }
         .correct {
             color: green;
+            font-weight: bold;
         }
         .incorrect {
             color: red;
+            font-weight: bold;
         }
         button {
             padding: 10px 15px;
@@ -143,7 +145,7 @@
                 document.getElementById('question').innerText = question;
                 document.getElementById('options').innerHTML = options.map((option, index) => 
                     `<div class="option">
-                        <input type="radio" name="option" id="option${index}" ${selectedAnswers[currentQuestionIndex] === index ? 'checked' : ''} disabled>
+                        <input type="radio" name="option" id="option${index}" ${selectedAnswers[currentQuestionIndex] === index ? 'checked' : ''} onclick="selectOption(${index})">
                         <label for="option${index}">${option}</label>
                     </div>`
                 ).join('');
@@ -156,6 +158,10 @@
                 document.getElementById('prevButton').disabled = true;
                 document.getElementById('nextButton').style.display = 'none';
             }
+        }
+
+        function selectOption(index) {
+            selectedAnswers[currentQuestionIndex] = index;
         }
 
         document.getElementById('nextButton').addEventListener('click', () => {
@@ -193,10 +199,27 @@
             questions.forEach((question, index) => {
                 const correctAnswer = question.correctAnswer;
                 const selectedAnswer = question.options[selectedAnswers[index]];
-                const colorClass = (selectedAnswers[index] === undefined) || (selectedAnswer !== correctAnswer) ? 'incorrect' : 'correct';
                 
-                resultsContent += `<div class="${colorClass}">
+                resultsContent += `<div class="question-container">
                     <strong>السؤال:</strong> ${question.question}<br>
+                    <strong>الإجابات:</strong><br>
+                    ${question.options.map((option, idx) => {
+                        const isCorrect = option === correctAnswer;
+                        const isSelected = selectedAnswers[index] === idx;
+                        let className = '';
+                        
+                        if (isSelected && isCorrect) {
+                            className = 'correct';
+                        } else if (isSelected && !isCorrect) {
+                            className = 'incorrect';
+                        } else if (!isSelected && isCorrect) {
+                            className = 'correct';
+                        } else {
+                            className = 'incorrect';
+                        }
+
+                        return `<div class="${className}">${option}</div>`;
+                    }).join('')}
                     <strong>إجابتك:</strong> ${selectedAnswer !== undefined ? selectedAnswer : 'لم يتم الإجابة'}<br>
                     <strong>الإجابة الصحيحة:</strong> ${correctAnswer}<br><br>
                 </div>`;
