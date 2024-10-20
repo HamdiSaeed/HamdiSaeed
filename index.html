@@ -105,8 +105,8 @@
     
     <div id="results">
         <h2>نتائج الاختبار</h2>
+        <div id="finalScore" style="font-weight: bold; margin-bottom: 20px;"></div>
         <div id="resultsContent"></div>
-        <div id="finalScore" style="font-weight: bold; margin-top: 20px;"></div>
         <button id="printButton">طباعة النتائج</button>
     </div>
 
@@ -228,8 +228,8 @@
                 </div>`;
             });
             
-            document.getElementById('resultsContent').innerHTML = resultsContent;
             document.getElementById('finalScore').innerText = `درجتك النهائية: ${correctCount} من ${questions.length}`;
+            document.getElementById('resultsContent').innerHTML = resultsContent;
             document.getElementById('results').style.display = 'block';
         }
 
