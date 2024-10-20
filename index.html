@@ -43,6 +43,12 @@
             margin-right: 10px;
             accent-color: #007BFF;
         }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
         button {
             padding: 10px 15px;
             background-color: #007BFF;
@@ -75,11 +81,8 @@
             display: none;
             margin-top: 20px;
         }
-        .correct {
-            color: green;
-        }
-        .incorrect {
-            color: red;
+        #resultsContent {
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -95,7 +98,7 @@
     </div>
     <div class="jump-container">
         <input type="number" id="jumpToQuestion" placeholder="أدخل رقم السؤال" min="1" />
-        <button id="jumpButton">Go</button> 
+        <button id="jumpButton">اذهب</button> 
     </div>
     
     <div id="results">
@@ -108,7 +111,6 @@
         let questions = [];
         let currentQuestionIndex = 0;
         let selectedAnswers = [];
-        let correctAnswers = []; // مصفوفة لتخزين الإجابات الصحيحة
 
         async function loadQuestions() {
             try {
@@ -140,8 +142,8 @@
                 
                 document.getElementById('question').innerText = question;
                 document.getElementById('options').innerHTML = options.map((option, index) => 
-                    `<div class="option" onclick="toggleOption(${index})">
-                        <input type="radio" name="option" id="option${index}" ${selectedAnswers[currentQuestionIndex] === index ? 'checked' : ''}>
+                    `<div class="option">
+                        <input type="radio" name="option" id="option${index}" ${selectedAnswers[currentQuestionIndex] === index ? 'checked' : ''} disabled>
                         <label for="option${index}">${option}</label>
                     </div>`
                 ).join('');
@@ -154,11 +156,6 @@
                 document.getElementById('prevButton').disabled = true;
                 document.getElementById('nextButton').style.display = 'none';
             }
-        }
-
-        function toggleOption(index) {
-            selectedAnswers[currentQuestionIndex] = index;
-            displayQuestion();
         }
 
         document.getElementById('nextButton').addEventListener('click', () => {
@@ -191,30 +188,22 @@
         });
 
         function showResults() {
-            let score = 0;
             let resultsContent = '';
             
             questions.forEach((question, index) => {
                 const correctAnswer = question.correctAnswer;
                 const selectedAnswer = question.options[selectedAnswers[index]];
+                const colorClass = (selectedAnswers[index] === undefined) || (selectedAnswer !== correctAnswer) ? 'incorrect' : 'correct';
                 
-                if (selectedAnswers[index] !== undefined) {
-                    if (selectedAnswer === correctAnswer) {
-                        score++;
-                        resultsContent += `<div class="correct"><strong>السؤال:</strong> ${question.question}<br>
-                        <strong>إجابتك:</strong> ${selectedAnswer}<br>
-                        <strong>الإجابة الصحيحة:</strong> ${correctAnswer}<br><br></div>`;
-                    } else {
-                        resultsContent += `<div class="incorrect"><strong>السؤال:</strong> ${question.question}<br>
-                        <strong>إجابتك:</strong> ${selectedAnswer}<br>
-                        <strong>الإجابة الصحيحة:</strong> ${correctAnswer}<br><br></div>`;
-                    }
-                }
+                resultsContent += `<div class="${colorClass}">
+                    <strong>السؤال:</strong> ${question.question}<br>
+                    <strong>إجابتك:</strong> ${selectedAnswer !== undefined ? selectedAnswer : 'لم يتم الإجابة'}<br>
+                    <strong>الإجابة الصحيحة:</strong> ${correctAnswer}<br><br>
+                </div>`;
             });
             
             document.getElementById('resultsContent').innerHTML = resultsContent;
             document.getElementById('results').style.display = 'block';
-            alert(`انتهى الاختبار! نتيجتك: ${score} من ${questions.length}`);
         }
 
         document.getElementById('printButton').addEventListener('click', () => {
