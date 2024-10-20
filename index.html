@@ -71,6 +71,16 @@
             font-size: 0.9em;
             padding: 5px 10px;
         }
+        #results {
+            display: none;
+            margin-top: 20px;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -86,6 +96,12 @@
     <div class="jump-container">
         <input type="number" id="jumpToQuestion" placeholder="أدخل رقم السؤال" min="1" />
         <button id="jumpButton">Go</button> 
+    </div>
+    
+    <div id="results">
+        <h2>نتائج الاختبار</h2>
+        <div id="resultsContent"></div>
+        <button id="printButton">طباعة النتائج</button>
     </div>
 
     <script>
@@ -176,17 +192,41 @@
 
         function showResults() {
             let score = 0;
+            let resultsContent = '';
+            
             questions.forEach((question, index) => {
                 const correctAnswer = question.correctAnswer;
                 const selectedAnswer = question.options[selectedAnswers[index]];
                 
-                // تأكد من أن الإجابة المحددة موجودة وقارنها بالإجابة الصحيحة
-                if (selectedAnswers[index] !== undefined && selectedAnswer === correctAnswer) {
-                    score++;
+                if (selectedAnswers[index] !== undefined) {
+                    if (selectedAnswer === correctAnswer) {
+                        score++;
+                        resultsContent += `<div class="correct"><strong>السؤال:</strong> ${question.question}<br>
+                        <strong>إجابتك:</strong> ${selectedAnswer}<br>
+                        <strong>الإجابة الصحيحة:</strong> ${correctAnswer}<br><br></div>`;
+                    } else {
+                        resultsContent += `<div class="incorrect"><strong>السؤال:</strong> ${question.question}<br>
+                        <strong>إجابتك:</strong> ${selectedAnswer}<br>
+                        <strong>الإجابة الصحيحة:</strong> ${correctAnswer}<br><br></div>`;
+                    }
                 }
             });
+            
+            document.getElementById('resultsContent').innerHTML = resultsContent;
+            document.getElementById('results').style.display = 'block';
             alert(`انتهى الاختبار! نتيجتك: ${score} من ${questions.length}`);
         }
+
+        document.getElementById('printButton').addEventListener('click', () => {
+            const printContent = document.getElementById('results').innerHTML;
+            const newWindow = window.open('', '', 'height=600,width=800');
+            newWindow.document.write('<html><head><title>طباعة النتائج</title>');
+            newWindow.document.write('</head><body>');
+            newWindow.document.write(printContent);
+            newWindow.document.write('</body></html>');
+            newWindow.document.close();
+            newWindow.print();
+        });
 
         window.onload = loadQuestions;
     </script>
