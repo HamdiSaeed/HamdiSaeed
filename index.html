@@ -106,6 +106,7 @@
     <div id="results">
         <h2>نتائج الاختبار</h2>
         <div id="resultsContent"></div>
+        <div id="finalScore" style="font-weight: bold; margin-top: 20px;"></div>
         <button id="printButton">طباعة النتائج</button>
     </div>
 
@@ -194,6 +195,7 @@
         });
 
         function showResults() {
+            let correctCount = 0;
             let resultsContent = '';
             
             questions.forEach((question, index) => {
@@ -210,6 +212,7 @@
                         
                         if (isSelected && isCorrect) {
                             className = 'correct';
+                            correctCount++;
                         } else if (isSelected && !isCorrect) {
                             className = 'incorrect';
                         } else if (!isSelected && isCorrect) {
@@ -226,6 +229,7 @@
             });
             
             document.getElementById('resultsContent').innerHTML = resultsContent;
+            document.getElementById('finalScore').innerText = `درجتك النهائية: ${correctCount} من ${questions.length}`;
             document.getElementById('results').style.display = 'block';
         }
 
