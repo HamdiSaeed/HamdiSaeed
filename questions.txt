@@ -544,466 +544,506 @@ B) Vitamin B12
 C) Vitamin K
 D) Vitamin E
 **Answer:** C) Vitamin K
-1. **What percentage of the body is composed of skeletal muscle?**
-   - A) 30%
-   - B) 40%
-   - C) 50%
-   - D) 60%
-   - **Answer:** B) 40%
-
-2. **Which type of muscle is primarily discussed in the chapter?**
-   - A) Smooth muscle
-   - B) Cardiac muscle
-   - C) Skeletal muscle
-   - D) All muscle types
-   - **Answer:** C) Skeletal muscle
-
-3. **What is the diameter range of skeletal muscle fibers?**
-   - A) 1 to 5 micrometers
-   - B) 10 to 80 micrometers
-   - C) 100 to 200 micrometers
-   - D) 1 to 10 micrometers
-   - **Answer:** B) 10 to 80 micrometers
-
-4. **What is the sarcolemma?**
-   - A) The muscle fiber membrane
-   - B) The contractile unit of muscle
-   - C) The outer layer of muscle
-   - D) The protein that causes contraction
-   - **Answer:** A) The muscle fiber membrane
-
-5. **Which proteins compose the myofibrils?**
-   - A) Actin and tropomyosin
-   - B) Myosin and actin
-   - C) Titin and troponin
-   - D) Adenosine and phosphate
-   - **Answer:** B) Myosin and actin
-
-6. **What are the light bands in muscle fibers called?**
-   - A) A bands
-   - B) I bands
-   - C) Z bands
-   - D) H bands
-   - **Answer:** B) I bands
-
-7. **What do cross-bridges in muscle fibers do?**
-   - A) Store calcium ions
-   - B) Facilitate contraction
-   - C) Provide energy
-   - D) Support muscle structure
-   - **Answer:** B) Facilitate contraction
-
-8. **What is a sarcomere?**
-   - A) A muscle cell
-   - B) The part of myofibrils between two Z disks
-   - C) A type of muscle fiber
-   - D) A protein complex
-   - **Answer:** B) The part of myofibrils between two Z disks
-
-9. **What role does titin play in muscle contraction?**
-   - A) Provides energy
-   - B) Holds myosin and actin in place
-   - C) Initiates action potentials
-   - D) Stores calcium ions
-   - **Answer:** B) Holds myosin and actin in place
-
-10. **What is the function of the sarcoplasmic reticulum?**
-    - A) Energy production
-    - B) Calcium storage and release
-    - C) Protein synthesis
-    - D) Muscle fiber repair
-    - **Answer:** B) Calcium storage and release
-
-11. **What initiates muscle contraction?**
-    - A) Release of ADP
-    - B) Calcium ion release
-    - C) Action potential
-    - D) ATP binding
-    - **Answer:** C) Action potential
-
-12. **What neurotransmitter is involved in muscle contraction?**
-    - A) Dopamine
-    - B) Norepinephrine
-    - C) Acetylcholine
-    - D) Serotonin
-    - **Answer:** C) Acetylcholine
-
-13. **What happens when acetylcholine binds to muscle fibers?**
-    - A) Sodium channels close
-    - B) Calcium is released
-    - C) Sodium channels open
-    - D) Potassium is released
-    - **Answer:** C) Sodium channels open
-
-14. **What mechanism describes muscle contraction?**
-    - A) Sliding filament mechanism
-    - B) Tension mechanism
-    - C) Cross-bridge mechanism
-    - D) Electrical conduction mechanism
-    - **Answer:** A) Sliding filament mechanism
-
-15. **What is the active site on actin?**
-    - A) Site where ATP binds
-    - B) Site for calcium binding
-    - C) Site for myosin attachment
-    - D) Site for energy storage
-    - **Answer:** C) Site for myosin attachment
-
-16. **What happens to calcium ions after muscle contraction?**
-    - A) They are released into the bloodstream
-    - B) They are reabsorbed into the sarcoplasmic reticulum
-    - C) They remain in the myofibril
-    - D) They are converted to ATP
-    - **Answer:** B) They are reabsorbed into the sarcoplasmic reticulum
-
-17. **What is the role of ATP in muscle contraction?**
-    - A) It provides calcium
-    - B) It energizes the myosin heads
-    - C) It stabilizes the actin filaments
-    - D) It produces lactic acid
-    - **Answer:** B) It energizes the myosin heads
-
-18. **What is the main energy source for muscle contraction?**
-    - A) Glucose
-    - B) Fatty acids
-    - C) ATP
-    - D) Creatine phosphate
-    - **Answer:** C) ATP
-
-19. **How long can the muscle maintain contraction using stored ATP?**
-    - A) 1-2 seconds
-    - B) 5-10 seconds
-    - C) 30 seconds
-    - D) 1 minute
-    - **Answer:** A) 1-2 seconds
-
-20. **What is phosphocreatine's role in muscle contraction?**
-    - A) It stores calcium
-    - B) It forms ATP
-    - C) It provides a quick source of energy
-    - D) It stabilizes muscle fibers
-    - **Answer:** C) It provides a quick source of energy
-
-21. **What is glycolysis?**
-    - A) Breakdown of fat for energy
-    - B) Breakdown of glucose for energy
-    - C) Synthesis of protein
-    - D) Conversion of lactic acid
-    - **Answer:** B) Breakdown of glucose for energy
-
-22. **What is the primary product of glycolysis?**
-    - A) ATP
-    - B) Creatine
-    - C) Lactic acid
-    - D) Pyruvic acid
-    - **Answer:** D) Pyruvic acid
-
-23. **Which type of muscle fiber contracts quickly and is primarily anaerobic?**
-    - A) Slow-twitch fibers
-    - B) Fast-twitch fibers
-    - C) Cardiac fibers
-    - D) Smooth fibers
-    - **Answer:** B) Fast-twitch fibers
-
-24. **What happens to the muscle when it is stretched beyond its optimal length?**
-    - A) Strength increases
-    - B) Strength decreases
-    - C) No change in strength
-    - D) Contraction becomes maximal
-    - **Answer:** B) Strength decreases
-
-25. **What is the relationship between load and velocity of contraction?**
-    - A) Directly proportional
-    - B) Inversely proportional
-    - C) Not related
-    - D) Exponentially related
-    - **Answer:** B) Inversely proportional
-
-26. **What occurs during the power stroke of muscle contraction?**
-    - A) Myosin releases ADP
-    - B) Actin is pulled inward
-    - C) Calcium is released
-    - D) ATP binds to myosin
-    - **Answer:** B) Actin is pulled inward
-
-27. **What happens when ATP binds to myosin?**
-    - A) Myosin binds to actin
-    - B) Myosin detaches from actin
-    - C) Calcium is released
-    - D) Myosin contracts
-    - **Answer:** B) Myosin detaches from actin
-
-28. **What protein complex inhibits actin during relaxation?**
-    - A) Myosin
-    - B) Tropomyosin-troponin complex
-    - C) Titin
-    - D) Creatine
-    - **Answer:** B) Tropomyosin-troponin complex
-
-29. **How does calcium initiate muscle contraction?**
-    - A) By binding to ATP
-    - B) By activating myosin
-    - C) By binding to troponin
-    - D) By releasing energy
-    - **Answer:** C) By binding to troponin
-
-30. **What happens to muscle fibers during tetanus?**
-    - A) They relax completely
-    - B) They contract weakly
-    - C) They remain contracted
-    - D) They shorten and lengthen rhythmically
-    - **Answer:** C) They remain contracted
-
-31. **What is the role of troponin C?**
-    - A) Stabilizes actin
-    - B) Binds calcium ions
-    - C) Activates ATPase
-    - D) Binds to tropomyosin
-    - **Answer:** B) Binds calcium ions
-
-32. **What determines the strength of muscle contraction?**
-    - A) Frequency of action potentials
-    - B) Length of muscle fibers
-    - C) Number of cross-bridges formed
-    - D) All of the above
-    - **Answer:** D) All of the above
-
-33. **What is the effect of increased sarcomere length on contraction?**
-    - A) Increased tension
-    - B) Decreased tension
-    - C) No effect
-    - D) Immediate contraction
-    - **Answer:** B) Decreased tension
-
-34. **What is the primary fuel source for prolonged muscle activity?**
-    - A) ATP
-    - B) Creatine
-    - C) Glycogen
-    - D) Fatty acids
-    - **Answer:** D) Fatty acids
-
-35. **What is the primary function of mitochondria in muscle fibers?**
-    - A) Calcium storage
-    - B) ATP production
-    - C) Protein synthesis
-    - D) Muscle contraction
-    - **Answer:** B) ATP production
-
-36. **What happens when muscle fibers are activated?**
-    - A) They relax
-    - B) They contract
-    - C) They lengthen
-    - D) They stop producing ATP
-    - **Answer:** B) They contract
-
-37. **What type of muscle fiber is more resistant to fatigue?**
-    - A) Fast-twitch
-    - B) Slow-twitch
-    - C) Cardiac
-    - D) Smooth
-    - **Answer:** B) Slow-twitch
-
-38. **What is the main consequence of lactic acid accumulation in muscles?**
-    - A) Decreased energy
-    - B) Increased strength
-    - C) Enhanced recovery
-    - D) No effect
-    - **Answer:** A) Decreased energy
-
-39. **What is the role of creatine phosphate in muscle contraction?**
-    - A) Converts lactic acid to glucose
-    - B) Provides a quick source of energy for ATP regeneration
-    - C) Stores calcium ions
-    - D) Binds to actin
-    - **Answer:** B) Provides a quick source of energy for ATP regeneration
-
-40. **What occurs at the M line in a sarcomere?**
-    - A) Myosin filaments overlap
-    - B) Actin filaments attach
-    - C) Calcium ions are released
-    - D) ATP is synthesized
-    - **Answer:** A) Myosin filaments overlap
-
-41. **What is the role of the H zone in a sarcomere?**
-    - A) Contains only actin filaments
-    - B) Contains only myosin filaments
-    - C) Is where contraction occurs
-    - D) Is the region where calcium binds
-    - **Answer:** B) Contains only myosin filaments
-
-42. **What happens to the muscle fiber length during contraction?**
-    - A) It lengthens
-    - B) It shortens
-    - C) It stays the same
-    - D) It varies unpredictably
-    - **Answer:** B) It shortens
-
-43. **What is the effect of increased frequency of stimulation on muscle contraction?**
-    - A) Decreased force
-    - B) Increased force
-    - C) No change
-    - D) Complete relaxation
-    - **Answer:** B) Increased force
-
-44. **What is the function of myosin ATPase?**
-    - A) Binds calcium
-    - B) Cleaves ATP for energy
-    - C) Stabilizes actin
-    - D) Releases ADP
-    - **Answer:** B) Cleaves ATP for energy
-
-45. **What happens during the relaxation phase of muscle contraction?**
-    - A) Calcium is released
-    - B) Actin and myosin stay bound
-    - C) Calcium is pumped back into the sarcoplasmic reticulum
-    - D) ATP production stops
-    - **Answer:** C) Calcium is pumped back into the sarcoplasmic reticulum
-
-46. **What mechanism is employed by myosin to pull actin filaments?**
-    - A) Sliding mechanism
-    - B) Rotational mechanism
-    - C) Stretching mechanism
-    - D) Twisting mechanism
-    - **Answer:** A) Sliding mechanism
-
-47. **What type of contraction occurs when a muscle generates force but does not change length?**
-    - A) Isotonic
-    - B) Isometric
-    - C) Eccentric
-    - D) Concentric
-    - **Answer:** B) Isometric
-
-48. **What happens when the muscle is stimulated beyond its optimal length?**
-    - A) Increased force
-    - B) Decreased force
-    - C) No effect
-    - D) Immediate fatigue
-    - **Answer:** B) Decreased force
-
-49. **What is the effect of cooling on muscle contraction?**
-    - A) Increases force
-    - B) Decreases force
-    - C) No effect on contraction
-    - D) Causes spasms
-    - **Answer:** B) Decreases force
-
-50. **What term describes the maximum force a muscle can generate?**
-    - A) Tension
-    - B) Load
-    - C) Work
-    - D) Peak force
-    - **Answer:** A) Tension
-
-51. **How does the body increase muscle force during activities?**
-    - A) By recruiting fewer motor units
-    - B) By increasing the frequency of action potentials
-    - C) By relaxing muscle fibers
-    - D) By decreasing ATP availability
-    - **Answer:** B) By increasing the frequency of action potentials
-
-52. **What is the primary ion involved in muscle contraction?**
-    - A) Sodium
-    - B) Potassium
-    - C) Calcium
-    - D) Magnesium
-    - **Answer:** C) Calcium
-
-53. **What structural feature allows myosin to bind to actin?**
-    - A) Tropomyosin
-    - B) Cross-bridges
-    - C) Z disks
-    - D) M line
-    - **Answer:** B) Cross-bridges
-
-54. **What happens to the actin filaments during muscle contraction?**
-    - A) They shorten
-    - B) They lengthen
-    - C) They slide over myosin
-    - D) They detach
-    - **Answer:** C) They slide over myosin
-
-55. **What is the primary function of troponin in muscle fibers?**
-    - A) Stabilizes myosin
-    - B) Inhibits contraction
-    - C) Binds calcium and moves tropomyosin
-    - D) Provides energy
-    - **Answer:** C) Binds calcium and moves tropomyosin
-
-56. **What type of muscle contraction occurs when the muscle shortens while lifting a load?**
-    - A) Isometric
-    - B) Eccentric
-    - C) Concentric
-    - D) Static
-    - **Answer:** C) Concentric
-
-57. **What is the result of a muscle fiber being overly stretched?**
-    - A) Increased contraction strength
-    - B) Optimal contraction
-    - C) Reduced contraction strength
-    - D) Increased length
-    - **Answer:** C) Reduced contraction strength
-
-58. **What is the role of calcium in the troponin-tropomyosin complex?**
-    - A) Binds to actin
-    - B) Activates ATPase
-    - C) Uncovers binding sites on actin
-    - D) Stabilizes myosin
-    - **Answer:** C) Uncovers binding sites on actin
-
-59. **Which process creates ATP in the absence of oxygen?**
-    - A) Oxidative phosphorylation
-    - B) Glycolysis
-    - C) Creatine phosphate breakdown
-    - D) Krebs cycle
-    - **Answer:** B) Glycolysis
-
-60. **What is the primary energy source for short bursts of intense exercise?**
-    - A) Glycogen
-    - B) Fatty acids
-    - C) ATP
-    - D) Creatine phosphate
-    - **Answer:** D) Creatine phosphate
-
-61. **Which muscle type is involuntary and striated?**
-    - A) Skeletal muscle
-    - B) Cardiac muscle
-    - C) Smooth muscle
-    - D) All of the above
-    - **Answer:** B) Cardiac muscle
-
-62. **What is the effect of increased temperature on muscle contraction?**
-    - A) Decreases strength
-    - B) Increases strength
-    - C) No effect
-    - D) Causes fatigue
-    - **Answer:** B) Increases strength
-
-63. **What happens to muscle fibers during eccentric contraction?**
-    - A) They shorten
-    - B) They lengthen
-    - C) They remain the same length
-    - D) They relax completely
-    - **Answer:** B) They lengthen
-
-64. **What is the primary function of the Z disk in a sarcomere?**
-    - A) Binds actin filaments
-    - B) Stabilizes myosin
-    - C) Separates sarcomeres
-    - D) Stores calcium
-    - **Answer:** C) Separates sarcomeres
-
-65. **What is the role of myoglobin in muscle tissue?**
-    - A) Stores calcium
-    - B) Stores oxygen
-    - C) Produces ATP
-    - D) Generates lactic acid
-    - **Answer:** B) Stores oxygen
-
-66. **What is the effect of fatigue on muscle performance?**
-    - A) Increased strength
-    - B) Decreased strength
-    - C) No change
-    - D) Increased endurance
-    - **Answer:** B) Decreased strength
-
-67. **Which muscle fibers
+### 1. What percentage of the body is composed of skeletal muscle?
+- A) 30%
+- B) 40%
+- C) 50%
+- D) 60%
+- **Answer:** B) 40%
+
+### 2. Which type of muscle is primarily discussed in the chapter?
+- A) Smooth muscle
+- B) Cardiac muscle
+- C) Skeletal muscle
+- D) All muscle types
+- **Answer:** C) Skeletal muscle
+
+### 3. What is the diameter range of skeletal muscle fibers?
+- A) 1 to 5 micrometers
+- B) 10 to 80 micrometers
+- C) 100 to 200 micrometers
+- D) 1 to 10 micrometers
+- **Answer:** B) 10 to 80 micrometers
+
+### 4. What is the sarcolemma?
+- A) The muscle fiber membrane
+- B) The contractile unit of muscle
+- C) The outer layer of muscle
+- D) The protein that causes contraction
+- **Answer:** A) The muscle fiber membrane
+
+### 5. Which proteins compose the myofibrils?
+- A) Actin and tropomyosin
+- B) Myosin and actin
+- C) Titin and troponin
+- D) Adenosine and phosphate
+- **Answer:** B) Myosin and actin
+
+### 6. What are the light bands in muscle fibers called?
+- A) A bands
+- B) I bands
+- C) Z bands
+- D) H bands
+- **Answer:** B) I bands
+
+### 7. What do cross-bridges in muscle fibers do?
+- A) Store calcium ions
+- B) Facilitate contraction
+- C) Provide energy
+- D) Support muscle structure
+- **Answer:** B) Facilitate contraction
+
+### 8. What is a sarcomere?
+- A) A muscle cell
+- B) The part of myofibrils between two Z disks
+- C) A type of muscle fiber
+- D) A protein complex
+- **Answer:** B) The part of myofibrils between two Z disks
+
+### 9. What role does titin play in muscle contraction?
+- A) Provides energy
+- B) Holds myosin and actin in place
+- C) Initiates action potentials
+- D) Stores calcium ions
+- **Answer:** B) Holds myosin and actin in place
+
+### 10. What is the function of the sarcoplasmic reticulum?
+- A) Energy production
+- B) Calcium storage and release
+- C) Protein synthesis
+- D) Muscle fiber repair
+- **Answer:** B) Calcium storage and release
+
+### 11. What initiates muscle contraction?
+- A) Release of ADP
+- B) Calcium ion release
+- C) Action potential
+- D) ATP binding
+- **Answer:** C) Action potential
+
+### 12. What neurotransmitter is involved in muscle contraction?
+- A) Dopamine
+- B) Norepinephrine
+- C) Acetylcholine
+- D) Serotonin
+- **Answer:** C) Acetylcholine
+
+### 13. What happens when acetylcholine binds to muscle fibers?
+- A) Sodium channels close
+- B) Calcium is released
+- C) Sodium channels open
+- D) Potassium is released
+- **Answer:** C) Sodium channels open
+
+### 14. What mechanism describes muscle contraction?
+- A) Sliding filament mechanism
+- B) Tension mechanism
+- C) Cross-bridge mechanism
+- D) Electrical conduction mechanism
+- **Answer:** A) Sliding filament mechanism
+
+### 15. What is the active site on actin?
+- A) Site where ATP binds
+- B) Site for calcium binding
+- C) Site for myosin attachment
+- D) Site for energy storage
+- **Answer:** C) Site for myosin attachment
+
+### 16. What happens to calcium ions after muscle contraction?
+- A) They are released into the bloodstream
+- B) They are reabsorbed into the sarcoplasmic reticulum
+- C) They remain in the myofibril
+- D) They are converted to ATP
+- **Answer:** B) They are reabsorbed into the sarcoplasmic reticulum
+
+### 17. What is the role of ATP in muscle contraction?
+- A) It provides calcium
+- B) It energizes the myosin heads
+- C) It stabilizes the actin filaments
+- D) It produces lactic acid
+- **Answer:** B) It energizes the myosin heads
+
+### 18. What is the main energy source for muscle contraction?
+- A) Glucose
+- B) Fatty acids
+- C) ATP
+- D) Creatine phosphate
+- **Answer:** C) ATP
+
+### 19. How long can the muscle maintain contraction using stored ATP?
+- A) 1-2 seconds
+- B) 5-10 seconds
+- C) 30 seconds
+- D) 1 minute
+- **Answer:** A) 1-2 seconds
+
+### 20. What is phosphocreatine's role in muscle contraction?
+- A) It stores calcium
+- B) It forms ATP
+- C) It provides a quick source of energy
+- D) It stabilizes muscle fibers
+- **Answer:** C) It provides a quick source of energy
+
+### 21. What is glycolysis?
+- A) Breakdown of fat for energy
+- B) Breakdown of glucose for energy
+- C) Synthesis of protein
+- D) Conversion of lactic acid
+- **Answer:** B) Breakdown of glucose for energy
+
+### 22. What is the primary product of glycolysis?
+- A) ATP
+- B) Creatine
+- C) Lactic acid
+- D) Pyruvic acid
+- **Answer:** D) Pyruvic acid
+
+### 23. Which type of muscle fiber contracts quickly and is primarily anaerobic?
+- A) Slow-twitch fibers
+- B) Fast-twitch fibers
+- C) Cardiac fibers
+- D) Smooth fibers
+- **Answer:** B) Fast-twitch fibers
+
+### 24. What happens to the muscle when it is stretched beyond its optimal length?
+- A) Strength increases
+- B) Strength decreases
+- C) No change in strength
+- D) Contraction becomes maximal
+- **Answer:** B) Strength decreases
+
+### 25. What is the relationship between load and velocity of contraction?
+- A) Directly proportional
+- B) Inversely proportional
+- C) Not related
+- D) Exponentially related
+- **Answer:** B) Inversely proportional
+
+### 26. What occurs during the power stroke of muscle contraction?
+- A) Myosin releases ADP
+- B) Actin is pulled inward
+- C) Calcium is released
+- D) ATP binds to myosin
+- **Answer:** B) Actin is pulled inward
+
+### 27. What happens when ATP binds to myosin?
+- A) Myosin binds to actin
+- B) Myosin detaches from actin
+- C) Calcium is released
+- D) Myosin contracts
+- **Answer:** B) Myosin detaches from actin
+
+### 28. What protein complex inhibits actin during relaxation?
+- A) Myosin
+- B) Tropomyosin-troponin complex
+- C) Titin
+- D) Creatine
+- **Answer:** B) Tropomyosin-troponin complex
+
+### 29. How does calcium initiate muscle contraction?
+- A) By binding to ATP
+- B) By activating myosin
+- C) By binding to troponin
+- D) By releasing energy
+- **Answer:** C) By binding to troponin
+
+### 30. What happens during the tetanus of muscle fibers?
+- A) They relax completely
+- B) They contract weakly
+- C) They remain contracted
+- D) They shorten and lengthen rhythmically
+- **Answer:** C) They remain contracted
+
+### 31. What is the role of troponin C?
+- A) Stabilizes actin
+- B) Binds calcium ions
+- C) Activates ATPase
+- D) Binds to tropomyosin
+- **Answer:** B) Binds calcium ions
+
+### 32. What determines the strength of muscle contraction?
+- A) Frequency of action potentials
+- B) Length of muscle fibers
+- C) Number of cross-bridges formed
+- D) All of the above
+- **Answer:** D) All of the above
+
+### 33. What is the effect of increased sarcomere length on contraction?
+- A) Increased tension
+- B) Decreased tension
+- C) No effect
+- D) Immediate contraction
+- **Answer:** B) Decreased tension
+
+### 34. What is the primary fuel source for prolonged muscle activity?
+- A) ATP
+- B) Creatine
+- C) Glycogen
+- D) Fatty acids
+- **Answer:** D) Fatty acids
+
+### 35. What is the primary function of mitochondria in muscle fibers?
+- A) Calcium storage
+- B) ATP production
+- C) Protein synthesis
+- D) Muscle contraction
+- **Answer:** B) ATP production
+
+### 36. What happens when muscle fibers are activated?
+- A) They relax
+- B) They contract
+- C) They lengthen
+- D) They stop producing ATP
+- **Answer:** B) They contract
+
+### 37. What type of muscle fiber is more resistant to fatigue?
+- A) Fast-twitch
+- B) Slow-twitch
+- C) Cardiac
+- D) Smooth
+- **Answer:** B) Slow-twitch
+
+### 38. What is the main consequence of lactic acid accumulation in muscles?
+- A) Decreased energy
+- B) Increased strength
+- C) Enhanced recovery
+- D) No effect
+- **Answer:** A) Decreased energy
+
+### 39. What is the role of creatine phosphate in muscle contraction?
+- A) Converts lactic acid to glucose
+- B) Provides a quick source of energy for ATP regeneration
+- C) Stores calcium ions
+- D) Binds to actin
+- **Answer:** B) Provides a quick source of energy for ATP regeneration
+
+### 40. What is the primary ion involved in muscle contraction?
+- A) Sodium
+- B) Potassium
+- C) Calcium
+- D) Magnesium
+- **Answer:** C) Calcium
+
+### 41. What structural feature allows myosin to bind to actin?
+- A) Tropomyosin
+- B) Cross-bridges
+- C) Z disks
+- D) M line
+- **Answer:** B) Cross-bridges
+
+### 42. What happens to the actin filaments during muscle contraction?
+- A) They shorten
+- B) They lengthen
+- C) They slide over myosin
+- D) They detach
+- **Answer:** C) They slide over myosin
+
+### 43. What is the effect of increased frequency of stimulation on muscle contraction?
+- A) Decreased force
+- B) Increased force
+- C) No change
+- D) Complete relaxation
+- **Answer:** B) Increased force
+
+### 44. What is the function of myosin ATPase?
+- A) Binds calcium
+- B) Cleaves ATP for energy
+- C) Stabilizes actin
+- D) Releases ADP
+- **Answer:** B) Cleaves ATP for energy
+
+### 45. What happens during the relaxation phase of muscle contraction?
+- A) Calcium is released
+- B) Actin and myosin stay bound
+- C) Calcium is pumped back into the sarcoplasmic reticulum
+- D) ATP production stops
+- **Answer:** C) Calcium is pumped back into the sarcoplasmic reticulum
+
+### 46. What mechanism is employed by myosin to pull actin filaments?
+- A) Sliding mechanism
+- B) Rotational mechanism
+- C) Stretching mechanism
+- D) Twisting mechanism
+- **Answer:** A) Sliding mechanism
+
+### 47. What type of contraction occurs when a muscle generates force but does not change length?
+- A) Isotonic
+- B) Isometric
+- C) Eccentric
+- D) Concentric
+- **Answer:** B) Isometric
+
+### 48. What happens when the muscle is stimulated beyond its optimal length?
+- A) Increased force
+- B) Decreased force
+- C) No effect
+- D) Immediate fatigue
+- **Answer:** B) Decreased force
+
+### 49. What is the effect of cooling on muscle contraction?
+- A) Increases force
+- B) Decreases force
+- C) No effect on contraction
+- D) Causes spasms
+- **Answer:** B) Decreases force
+
+### 50. What term describes the maximum force a muscle can generate?
+- A) Tension
+- B) Load
+- C) Work
+- D) Peak force
+- **Answer:** A) Tension
+
+### 51. How does the body increase muscle force during activities?
+- A) By recruiting fewer motor units
+- B) By increasing the frequency of action potentials
+- C) By relaxing muscle fibers
+- D) By decreasing ATP availability
+- **Answer:** B) By increasing the frequency of action potentials
+
+### 52. What is the primary ion involved in muscle contraction?
+- A) Sodium
+- B) Potassium
+- C) Calcium
+- D) Magnesium
+- **Answer:** C) Calcium
+
+### 53. What is the role of the H zone in a sarcomere?
+- A) Contains only actin filaments
+- B) Contains only myosin filaments
+- C) Is where contraction occurs
+- D) Is the region where calcium binds
+- **Answer:** B) Contains only myosin filaments
+
+### 54. What happens during the relaxation phase of muscle contraction?
+- A) Calcium is released
+- B) Calcium is pumped back into the sarcoplasmic reticulum
+- C) ATP is synthesized
+- D) Myosin binds to actin
+- **Answer:** B) Calcium is pumped back into the sarcoplasmic reticulum
+
+### 55. What is the role of ATP in muscle contraction?
+- A) It provides calcium
+- B) It energizes the myosin heads
+- C) It stabilizes actin filaments
+- D) It produces lactic acid
+- **Answer:** B) It energizes the myosin heads
+
+### 56. What happens when the muscle fibers are activated?
+- A) They relax
+- B) They contract
+- C) They lengthen
+- D) They stop producing ATP
+- **Answer:** B) They contract
+
+### 57. What type of muscle fiber is more resistant to fatigue?
+- A) Fast-twitch
+- B) Slow-twitch
+- C) Cardiac
+- D) Smooth
+- **Answer:** B) Slow-twitch
+
+### 58. What is the main consequence of lactic acid accumulation in muscles?
+- A) Decreased energy
+- B) Increased strength
+- C) Enhanced recovery
+- D) No effect
+- **Answer:** A) Decreased energy
+
+### 59. What is the primary fuel source for short bursts of intense exercise?
+- A) Glycogen
+- B) Fatty acids
+- C) ATP
+- D) Creatine phosphate
+- **Answer:** D) Creatine phosphate
+
+### 60. What is the role of myoglobin in muscle tissue?
+- A) Stores calcium
+- B) Stores oxygen
+- C) Produces ATP
+- D) Generates lactic acid
+- **Answer:** B) Stores oxygen
+
+### 61. What happens to muscle fibers during eccentric contraction?
+- A) They shorten
+- B) They lengthen
+- C) They remain the same length
+- D) They relax completely
+- **Answer:** B) They lengthen
+
+### 62. What is the primary function of the Z disk in a sarcomere?
+- A) Binds actin filaments
+- B) Stabilizes myosin
+- C) Separates sarcomeres
+- D) Stores calcium
+- **Answer:** C) Separates sarcomeres
+
+### 63. What is the effect of fatigue on muscle performance?
+- A) Increased strength
+- B) Decreased strength
+- C) No change
+- D) Increased endurance
+- **Answer:** B) Decreased strength
+
+### 64. What is the effect of increased temperature on muscle contraction?
+- A) Decreases strength
+- B) Increases strength
+- C) No effect
+- D) Causes fatigue
+- **Answer:** B) Increases strength
+
+### 65. What type of muscle contraction occurs when the muscle shortens while lifting a load?
+- A) Isometric
+- B) Eccentric
+- C) Concentric
+- D) Static
+- **Answer:** C) Concentric
+
+### 66. What happens when ATP binds to myosin?
+- A) Myosin binds to actin
+- B) Myosin detaches from actin
+- C) Calcium is released
+- D) Myosin contracts
+- **Answer:** B) Myosin detaches from actin
+
+### 67. What is the main consequence of lactic acid accumulation in muscles?
+- A) Decreased energy
+- B) Increased strength
+- C) Enhanced recovery
+- D) No effect
+- **Answer:** A) Decreased energy
+
+### 68. What mechanism describes muscle contraction?
+- A) Sliding filament mechanism
+- B) Tension mechanism
+- C) Cross-bridge mechanism
+- D) Electrical conduction mechanism
+- **Answer:** A) Sliding filament mechanism
+
+### 69. What is the role of troponin in muscle contraction?
+- A) Stabilizes actin
+- B) Inhibits contraction
+- C) Binds calcium and moves tropomyosin
+- D) Provides energy
+- **Answer:** C) Binds calcium and moves tropomyosin
+
+### 70. What happens during the power stroke of muscle contraction?
+- A) Myosin releases ADP
+- B) Actin is pulled inward
+- C) Calcium is released
+- D) ATP binds to myosin
+- **Answer:** B) Actin is pulled inward
+
+### 71. What happens to calcium ions after muscle contraction?
+- A) They are released into the bloodstream
+- B) They are reabsorbed into the sarcoplasmic reticulum
+- C) They remain in the myofibril
+- D) They are converted to ATP
+- **Answer:** B) They are reabsorbed into the sarcoplasmic reticulum
+
+### 72. What is the primary ion involved in muscle contraction?
+- A) Sodium
+- B) Potassium
+- C) Calcium
+- D) Magnesium
+- **Answer:** C) Calcium
